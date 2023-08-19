@@ -1,3 +1,5 @@
+This version is made to fix any issues when running this library on a Raspberry Pi.
+
 Introduction
 ============
 

@@ -36,7 +36,6 @@ from collections import namedtuple
 try:
     from typing import Tuple, Dict, Any, Optional, List, Iterator, Union
     from busio import UART
-    from digitalio import DigitalInOut
 except ImportError:
     pass
 
@@ -121,7 +120,7 @@ def _process_express_scan(
 class RPLidar:
     """Class for communicating with RPLidar rangefinder scanners"""
 
-    motor_pin = None  #: DigitalInOut instance controlling the motor
+    motor_pin = None  #: int gpio for controlling the motor
     _serial_port = None  #: Serial port (or UART) instance
     port = None  #: Serial port name, e.g. /dev/ttyUSB0
     timeout = 1  #: Serial port timeout
@@ -136,7 +135,7 @@ class RPLidar:
 
     def __init__(
         self,
-        motor_pin: DigitalInOut,
+        motor_pin: int,
         port: UART,
         baudrate: int = 115200,
         timeout: float = 1,
@@ -146,7 +145,7 @@ class RPLidar:
 
         Parameters
 
-        motor_pin : digitalio.DigitalInOut
+        motor_pin : int
             Pin controlling the motor
         port : busio.UART or str
             Serial port instance or name of the port to which the sensor is connected
