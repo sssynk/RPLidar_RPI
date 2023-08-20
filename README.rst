@@ -24,19 +24,21 @@ Introduction
 Dependencies
 =============
 
-Install with PyPy: ``pip install Adafruit_CircuitPython_RPLIDAR``
+To install:
+
+cd to the directory and run this command:
+`sudo python3 setup.py install` (it will install as adafruit_rplidar!)
+
 This driver depends on:
 
-* `Adafruit CircuitPython <https://github.com/adafruit/circuitpython>`_
-* `Bus Device <https://github.com/adafruit/Adafruit_CircuitPython_BusDevice>`_
-* `Register <https://github.com/adafruit/Adafruit_CircuitPython_Register>`_
+* `pySerial <https://github.com/pyserial/pyserial>`_
 
-Please ensure all dependencies are available on the CircuitPython filesystem.
-This is easily achieved by downloading
-`the Adafruit library and driver bundle <https://github.com/adafruit/Adafruit_CircuitPython_Bundle>`_.
+Designed to work with python3. For the CircuitPython version, please check the Adafruit version!
 
 Usage Example
 =============
+
+- THIS INSTALLS AS adafruit_rplidar!
 
 .. code-block:: python
 
@@ -72,6 +74,8 @@ Usage Example
 
 Documentation
 =============
+
+There are no official docs for this version, but everything except motor speed should work the same as below.
 
 API documentation for this library can be found on `Read the Docs <https://docs.circuitpython.org/projects/rplidar/en/latest/>`_.
 
