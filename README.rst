@@ -5,6 +5,7 @@ This version is made to fix any issues when running other similar libraries on a
 
 Tested OSes:
 - RPI running Ubuntu 22.04
+- RPI running Raspberry Pi OS
 
 When running other versions, I had import errors and many errors with descriptors. This should fix all of them.
 
