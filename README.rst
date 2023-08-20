@@ -32,7 +32,11 @@ Dependencies
 To install:
 
 cd to the directory and run this command:
-..sudo python3 setup.py install
+
+
+sudo python3 setup.py install
+
+
 (it will install as adafruit_rplidar!)
 
 This driver depends on:
