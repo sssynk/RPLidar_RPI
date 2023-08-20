@@ -1,4 +1,9 @@
+RPLidar for the Raspberry Pi
+============
+
 This version is made to fix any issues when running this library on a Raspberry Pi.
+
+When running other versions, I had import errors and many errors with descriptors. This should fix all of them.
 
 Introduction
 ============
@@ -27,7 +32,8 @@ Dependencies
 To install:
 
 cd to the directory and run this command:
-`sudo python3 setup.py install` (it will install as adafruit_rplidar!)
+`sudo python3 setup.py install`
+(it will install as adafruit_rplidar!)
 
 This driver depends on:
 
