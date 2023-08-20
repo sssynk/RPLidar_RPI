@@ -1,7 +1,10 @@
 RPLidar for the Raspberry Pi
 ============
 
-This version is made to fix any issues when running this library on a Raspberry Pi.
+This version is made to fix any issues when running other similar libraries on a Raspberry Pi.
+
+Tested OSes:
+- RPI running Ubuntu 22.04
 
 When running other versions, I had import errors and many errors with descriptors. This should fix all of them.
 
